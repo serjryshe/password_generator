@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+</head>
+<body>
+    
+<div class="app-wrap">
+    <div>
+    <h1>Generate a</h1>
+    <h1 id="sndh">random password</h1>    
+    <h2>Never use an insecure password again.</h2>
+
+    <div id="des-length">
+        <h5>Length</h5>
+        <input type="number" id="password-length" min="15" max="25" onkeydown="return false" value="15">
+    </div>
+
+    
+    <button id="gen-btn" onclick="setValueOne(),generatePasswordOne(), generatePasswordTwo()">Generate Passwords</button>
+
+<div class="btm-btns">
+    <div>
+        <!-- <h4>Password One</h4> -->
+        <input type="text" id="passwordOne"  onkeydown="return false" value=""></input>
+        <button class="copy-btn" onclick="copyPasswordOne()">Copy</button>
+    </div>
+        
+    <div>
+        <!-- <h4>Password Two</h4> -->
+        <input type="text" id="passwordTwo"  onkeydown="return false" value=""></input>
+        <button class="copy-btn" onclick="copyPasswordTwo()">Copy</button>
+    </div>
+</div>
+</div>  
+</div>
+    <script src="index.js"></script>
+</body>
+</html>

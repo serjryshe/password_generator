@@ -1,0 +1,115 @@
+.app-wrap {
+    background-color: #1e2938;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    border: solid 5px white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+body {
+    background-color: #1e2938;
+}
+
+h1 {
+    text-align: left;
+    margin: 0;
+    font-size: 2.2em
+}
+
+#sndh {
+    color: #10b982;
+}
+
+
+h3, h2 {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+input {
+    background-color: #283549;
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+    width: 210px;
+}
+
+input::selection {
+    color: #0d996c;
+}
+
+button {
+    background-color: #10b982;
+    color: white;
+    border: 0;
+    height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 12px;
+
+}
+
+button:hover {
+    background-color: #0d996c;
+}
+
+#gen-btn {
+    margin-top: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+#textInput {
+    background-color: rgb(95, 95, 95);
+    
+}
+
+#des-length {
+    display:flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+}
+
+#password-length {
+    height: 20px;
+    width: 40px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+#passwords-wrap {
+    margin: 25px;
+}
+
+
+.btm-btns {
+    margin-top: 40px;;
+    display: flex;
+    justify-content: start;
+    align-items:flex-start;
+    flex-direction: column;
+}
+
+.btm-btns button {
+    margin-top: 10px;
+}
+
+input {
+    border-radius: 5%;
+    border: none;
+}
+
+.copy-btn {
+    width: 60px;
+    height: 20px;
+}
